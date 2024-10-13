@@ -1,0 +1,9 @@
+.no-error-space .mat-mdc-form-field-subscript-wrapper {
+  display: none !important; /* This hides the entire area reserved for errors, hints, etc. */
+}
+
+
+.no-error-space .mat-mdc-form-field-bottom-align::before {
+  display: none !important; /* This hides the entire area reserved for errors, hints, etc. */
+  background-color: red;
+}
